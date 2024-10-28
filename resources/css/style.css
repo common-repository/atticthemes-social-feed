@@ -1,0 +1,37 @@
+body .atsf-instagram-feed,
+body .atsf-dribbble-feed {
+	display: block;;
+	position: relative;
+
+	list-style: none;
+	overflow: hidden;
+}
+
+body .atsf-instagram-feed li,
+body .atsf-dribbble-feed li {
+	display: block;
+	position: relative;
+
+	float: left;
+}
+
+body .atsf-instagram-feed a,
+body .atsf-dribbble-feed a {
+	display: block;
+
+	text-decoration: none;
+	border: none;
+}
+
+body .atsf-instagram-feed img,
+body .atsf-dribbble-feed img {
+	display: block;
+	max-width: 100%;
+}
+
+
+
+.widget .atsf-instagram-feed li,
+.widget .atsf-dribbble-feed li {
+	width: 33.33%
+}
